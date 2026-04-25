@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Oksana Kosinova</title>
-    <link>http://localhost:1313/sql_ua/tags/</link>
+    <link>http://localhost:1313/sql_ua/en/tags/</link>
     <description>Recent content in Tags on Oksana Kosinova</description>
     <generator>Hugo</generator>
-    <language>uk</language>
-    <atom:link href="http://localhost:1313/sql_ua/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="http://localhost:1313/sql_ua/en/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

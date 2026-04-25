@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Добро пожаловать on Oksana Kosinova</title>
-    <link>http://localhost:1313/sql_ua/</link>
-    <description>Recent content in Добро пожаловать on Oksana Kosinova</description>
+    <title>Posts on Oksana Kosinova</title>
+    <link>http://localhost:1313/sql_ua/en/posts/</link>
+    <description>Recent content in Posts on Oksana Kosinova</description>
     <generator>Hugo</generator>
-    <language>uk</language>
+    <language>en</language>
     <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sql_ua/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sql_ua/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как я выбираю данные</title>
-      <link>http://localhost:1313/sql_ua/posts/my-first-query/</link>
+      <link>http://localhost:1313/sql_ua/en/posts/my-first-query/</link>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/sql_ua/posts/my-first-query/</guid>
+      <guid>http://localhost:1313/sql_ua/en/posts/my-first-query/</guid>
       <description>&lt;h3 id=&#34;мой-тестовый-запрос&#34;&gt;Мой тестовый запрос&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; name, &lt;span style=&#34;color:#66d9ef&#34;&gt;count&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;) &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; users &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;GROUP&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;BY&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;HAVING&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;count&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>

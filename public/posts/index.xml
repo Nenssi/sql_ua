@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Добро пожаловать on Oksana Kosinova</title>
-    <link>http://localhost:1313/sql_ua/</link>
-    <description>Recent content in Добро пожаловать on Oksana Kosinova</description>
+    <title>Posts on Oksana Kosinova</title>
+    <link>http://localhost:1313/sql_ua/posts/</link>
+    <description>Recent content in Posts on Oksana Kosinova</description>
     <generator>Hugo</generator>
     <language>uk</language>
     <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/sql_ua/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sql_ua/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как я выбираю данные</title>
       <link>http://localhost:1313/sql_ua/posts/my-first-query/</link>
