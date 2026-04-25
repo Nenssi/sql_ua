@@ -1,0 +1,7 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'ru-ru'
+title = 'SQL Developer Portfolio'
+theme = 'ananke'
+
+[params]
+  background_color_class = "bg-black"
