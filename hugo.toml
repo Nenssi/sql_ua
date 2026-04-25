@@ -10,13 +10,17 @@ defaultContentLanguage = 'uk'
     title = 'Oksana Kosinova'
     contentDir = 'content/uk'
     weight = 1
-
+    [languages.uk.params]
+      show_social_icons = true
+		
   [languages.en]
     languageName = 'English'
     title = 'Oksana Kosinova'
     contentDir = 'content/en'
     weight = 2
-
+    [languages.en.params]
+      show_social_icons = true
+		
 # Меню UA
 [[languages.uk.menu.main]]
     name = "Про мене"
@@ -33,6 +37,11 @@ defaultContentLanguage = 'uk'
     url = "/contact/"
     weight = 3
 
+[[languages.uk.menu.main]]
+    name = "Telegram ↗"
+    url = "https://t.me/Nenssi7"
+    weight = 4
+	
 # Меню EN
 [[languages.en.menu.main]]
     name = "About Me"
@@ -49,12 +58,22 @@ defaultContentLanguage = 'uk'
     url = "/contact/"
     weight = 3
 
-[params]
-  background_color_class = "bg-black"
-  # Эти две строки заставят иконки показаться:
-  show_social_icons = true
-  social_follow = true 
-
-  [[params.social]]
-    name = "telegram"
+[[languages.en.menu.main]]
+    name = "Telegram ↗"
     url = "https://t.me/Nenssi7"
+    weight = 4
+
+[params]
+    background_color_class = "bg-black"
+    show_social_icons = true
+    
+    # Попробуй эти три классических имени для теста
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/nenssi"
+    [[params.social]]
+        name = "linkedin"
+        url = "https://linkedin.com/"
+    [[params.social]]
+        name = "telegram"
+        url = "https://t.me/Nenssi7"

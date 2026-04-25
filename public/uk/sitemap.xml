@@ -53,6 +53,18 @@
                 href="http://localhost:1313/sql_ua/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/sql_ua/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/sql_ua/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="http://localhost:1313/sql_ua/contact/"
+                />
+  </url><url>
     <loc>http://localhost:1313/sql_ua/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -63,6 +75,18 @@
                 rel="alternate"
                 hreflang="uk"
                 href="http://localhost:1313/sql_ua/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/sql_ua/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/sql_ua/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk"
+                href="http://localhost:1313/sql_ua/about/"
                 />
   </url>
 </urlset>
