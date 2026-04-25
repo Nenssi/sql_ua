@@ -51,7 +51,10 @@ defaultContentLanguage = 'uk'
 
 [params]
   background_color_class = "bg-black"
-  # Социальные сети
+  # Эти две строки заставят иконки показаться:
+  show_social_icons = true
+  social_follow = true 
+
   [[params.social]]
     name = "telegram"
     url = "https://t.me/Nenssi7"
