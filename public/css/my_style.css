@@ -1,0 +1,96 @@
+.bg-custom-green {
+    background-color: #47604f !important;
+}
+
+/* nav { */
+    /* position: relative !important; /* Возвращаем в поток, чтобы не гадать с padding-top */ */
+    /* background-color: #47604f !important; */
+    /* width: 100% !important; */
+    /* margin-bottom: 0 !important; */
+/* } */
+
+nav {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    min-height: auto !important; /* Убираем минимальную высоту, если она была */
+}
+
+nav a.f3 { 
+    margin-left: 20px !important; /* Увеличьте это число, пока не станет как нужно */
+    display: inline-block !important;
+}
+
+body {
+    padding-top: 0 !important;
+}
+
+/* Добавим немного отступов, чтобы меню выглядело аккуратно */
+/* nav.flex-l { */
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+/* } */
+
+/* Самое важное для Ananke: убираем отступы внутри обертки хедера */
+header.cover {
+    min-height: 0 !important;
+    padding: 0 !important;
+}
+
+/* Используем только один основной класс для максимальной надежности */
+.tc-l.pv3.ph3.ph4-ns {
+    display: none !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ph3, .ph4-ns, .pa3, .pa4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pb3-m.pb6-l.bg-custom-green {
+    padding-bottom: 0 !important;
+}
+
+/* Убираем верхний отступ у основного контейнера контента */
+.page-main, 
+article.pa3, 
+article.pa4 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Убираем нижний отступ у хедера, если он остался */
+.ananke-socials {
+    margin-bottom: 0 !important;
+}
+
+/* Убираем все отступы у внутреннего контейнера в шапке */
+header div.flex-l {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Убедимся, что body занимает всю высоту */
+}
+
+/* Принудительно убираем отступы у основных контейнеров */
+.main-container, footer {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.w-100.ph3.ph4-ns, 
+.mw7, .mw8, .mw9,
+main, article {
+    max-width: none !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

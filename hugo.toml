@@ -1,13 +1,12 @@
 baseURL = 'https://nenssi.github.io/sql_ua/'
 theme = 'ananke'
-
-# Основной язык
-defaultContentLanguage = 'uk'
+DefaultContentLanguage = 'uk'
+custom_css = ["css/my_style.css"]
 
 [languages]
   [languages.uk]
     languageName = 'Українська'
-    title = 'Oksana Kosinova'
+    title = 'SQL-розробка аналітика'
     contentDir = 'content/uk'
     weight = 1
     [languages.uk.params]
@@ -15,7 +14,7 @@ defaultContentLanguage = 'uk'
 		
   [languages.en]
     languageName = 'English'
-    title = 'Oksana Kosinova'
+    title = 'SQL-development analytics'
     contentDir = 'content/en'
     weight = 2
     [languages.en.params]
@@ -37,10 +36,6 @@ defaultContentLanguage = 'uk'
     url = "/contact/"
     weight = 3
 
-[[languages.uk.menu.main]]
-    name = "Telegram ↗"
-    url = "https://t.me/Nenssi7"
-    weight = 4
 	
 # Меню EN
 [[languages.en.menu.main]]
@@ -57,23 +52,22 @@ defaultContentLanguage = 'uk'
     name = "Contact"
     url = "/contact/"
     weight = 3
-
-[[languages.en.menu.main]]
-    name = "Telegram ↗"
-    url = "https://t.me/Nenssi7"
-    weight = 4
-
+	
+	
 [params]
-    background_color_class = "bg-black"
+    background_color_class = "bg-custom-green"
     show_social_icons = true
     
-    # Попробуй эти три классических имени для теста
     [[params.social]]
         name = "github"
         url = "https://github.com/nenssi"
     [[params.social]]
         name = "linkedin"
-        url = "https://linkedin.com/"
+        url = "https://www.linkedin.com/in/oksana-bespalova-3b7b9a376/"
     [[params.social]]
         name = "telegram"
         url = "https://t.me/Nenssi7"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

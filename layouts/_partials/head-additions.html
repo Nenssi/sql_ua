@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="{{ "css/my_style.css" | relURL }}">
+
+<style>
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    background-color: #47604f !important;
+	
+  }
+  
+  nav a.f3 {
+    display: block !important;
+    max-width: 160px; /* Подберите ширину так, чтобы слово аналітика прыгнуло вниз */
+    line-height: 1.1 !important;
+    white-space: normal !important; /* Разрешаем перенос текста */
+	font-size: 1rem !important; /* Было 1.2rem или выше, теперь станет меньше */
+    font-weight: bold !important; /* Сохраняем жирность, если нужно */
+}
+
+.nav-logo, 
+nav a.link { 
+    padding-left: 20px !important; /* Настройте это число под себя */
+}
+
+/* Опускаем весь зеленый блок ниже, чтобы он не лип к меню */
+.hero-block {
+    display: flex !important;
+    width: 100% !important;
+	margin-top: 60px !important; /* Это создаст воздух под меню */
+    padding-top: 20px !important; /* Дополнительный отступ внутри самого блока */
+    justify-content: flex-start !important; /* Сдвигает всё к левому краю */
+    align-items: flex-start !important;
+    padding-left: 5% !important; /* Небольшой отступ от самого края для красоты */
+}
+
+
+/* Общие настройки для колонок */
+.hero-item {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100% !important;
+}
+
+/* 2. Колонка с текстом: убираем центрирование и даем минимальный отступ от края */
+.text-side {
+    flex: 0 0 35% !important;
+    padding-left: 5vw !important; 
+    z-index: 10 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+	margin-top: 250px !important;
+	font-size: 15px; /* Попробуйте этот размер */
+    font-weight: bold; /* Чтобы осталось жирным */
+
+}
+
+/* 3. Фото: подтягиваем его еще ближе к тексту, если нужно */
+.photo-side {
+    flex: 0 0 30% !important;
+    margin-left: -30% !important; /* Регулируй наложение здесь */
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+/* Колонка 3: Услуги */
+<!-- .services-side { -->
+    <!-- flex: 0 0 35% !important; -->
+    <!-- padding-left: 40px; -->
+    <!-- color: white !important; -->
+    <!-- justify-content: flex-start !important; -->
+<!-- } -->
+.services-side {
+    flex: 1 !important;
+    padding-left: 20px !important;
+	color: white !important;
+	justify-content: flex-start !important;
+	padding-left: 5% !important;
+	
+}
+
+/* Настройка картинки */
+.profile-img {
+    height: 90% !important; /* Фото стало меньше и аккуратнее */
+    width: 70% !important;
+    object-fit: contain;
+}
+
+.main-title {
+    font-size: 2.5rem !important; /* Регулируйте это значение */
+    line-height: 1.1;
+    margin: 0 !important;
+    color: white !important;
+}
+
+/* 4. Убираем белую полосу снизу */
+body {
+    background-color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.site-wrapper {
+    max-width: 90% !important; /* Вместо пикселей ставим проценты, чтобы занять почти весь экран */
+    margin: 0 auto !important;
+    background-color: #47604f !important;
+    min-height: 100vh;
+}
+</style>
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+.bg-custom-green {
+    background-color: #47604f !important;
+}
+
+nav {
+    position: fixed !important; /* Меняем sticky на fixed для глобальности */
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 9999 !important;
+    background-color: #47604f !important;
+    width: 100% !important;
+}
+
+/* Важно: так как меню теперь "парит" над сайтом (fixed), 
+нам нужно добавить отступ основному контенту, чтобы меню его не перекрывало */
+body {
+    padding-top: 80px; /* Настрой это значение под высоту твоего меню */
+}
+
+/* Добавим немного отступов, чтобы меню выглядело аккуратно */
+nav.flex-l {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Убираем лишние огромные отступы у всей шапки */
+header.cover {
+    min-height: auto !important;
+    padding-bottom: 0 !important;
+}
+
+/* Используем только один основной класс для максимальной надежности */
+.tc-l.pv3.ph3.ph4-ns {
+    display: none !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pb3-m.pb6-l.bg-custom-green {
+    padding-bottom: 0 !important;
+}
